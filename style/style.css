@@ -1,0 +1,62 @@
+.header-cont{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.to-do-image {
+  height: 1.5rem;
+}
+
+.add-cont {
+  display: flex;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.input-txt {
+  flex: 3;
+  margin-right: -0.7rem;
+}
+
+.add-btn {
+  flex: 1;
+  background-color: rgb(254, 72, 0);
+  color: white;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.task-cont {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  column-gap: 1rem;
+  align-items: center;
+  justify-items: start;
+  padding-left: 1rem;
+  background-color: rgba(128, 128, 128, 0.089);
+  border-radius: 0.5rem;
+}
+
+.checked-img {
+  height: 1.2rem; 
+  cursor: pointer;
+}
+
+.task-txt {
+  cursor: pointer;
+}
+
+.unchecked-img{
+  height: 1.2rem; 
+  cursor: pointer;
+  background-color: transparent;  
+  display: none;
+}
+
+.clear-img {
+  height: 1.2rem; 
+  cursor: pointer;
+  background-color: transparent;  
+}
+
